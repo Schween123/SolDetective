@@ -1,0 +1,51 @@
+# Node.js (frontend/backend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+
+# Build output
+dist/
+.build/
+.next/
+out/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+*.out
+
+# Environment variables
+.env
+.env.*.local
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Python (ML)
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg
+*.egg-info/
+*.ipynb_checkpoints
+Pipfile.lock
+venv/
+env/
+*.sqlite3
+
+# OS / Misc
+.DS_Store
+Thumbs.db
+
+# Git
+*.swp
+.idea/
+*.bak
+*.tmp
+*.orig
